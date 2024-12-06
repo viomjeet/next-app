@@ -24,7 +24,6 @@ export const Navigation = () => {
     return (
         <div className="bg-white">
             <header>
-                <code>{JSON.stringify(nav[1])}</code>
                 <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
                     <div className="hidden lg:flex lg:gap-x-12">
                         {nav.map((item) => (
