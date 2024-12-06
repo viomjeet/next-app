@@ -7,7 +7,6 @@ function page() {
       <Greet />
       <Counter />
       <h1 className='text-6xl'>Home</h1>
-
     </div>
   )
 }

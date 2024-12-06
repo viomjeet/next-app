@@ -30,7 +30,7 @@ export const Navigation = () => {
                 <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
                     <div className="hidden lg:flex lg:gap-x-12">
                         {nav.map((item) => (
-                            <Link key={item.name} onClick={() => handleNavToggle(item)} href={item.href} className={`${item.isActive ? "text-red-400" : ""} text-sm/6 font-semibold text-gray-900`}>
+                            <Link key={item.name} onClick={() => handleNavToggle(item)} href={item.href} className={`${item.isActive ? "text-red-400" : ""} cursor-pointer text-sm/6 font-semibold text-gray-900`}>
                                 {item.name}
                             </Link>
                         ))}
