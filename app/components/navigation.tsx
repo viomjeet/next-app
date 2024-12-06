@@ -13,7 +13,6 @@ export const Navigation = () => {
     ]);
 
     const handleNavToggle = (item: any) => {
-        debugger;
         nav.map((o: any) => {
             o.isActive = false;
             if (o.id === item.id) {
